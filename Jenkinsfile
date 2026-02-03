@@ -22,7 +22,7 @@ pipeline {
             steps {
                 bat '''
                 dir target
-                copy /Y target\\*.war "C:\\apache-tomcat-10.1\\webapps\\"
+                copy /Y target\\*.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\"
                 '''
             }
         }
